@@ -893,7 +893,7 @@ function payMpesaModal(deliveryId, phone){
   const modal = document.createElement('div');
   modal.className = 'modal-overlay';
   modal.innerHTML = `
-    <div class="modal-card" style="max-width:440px;text-align:center">
+    <div class="modal-card payment-modal-card" style="max-width:440px;text-align:center">
       <div class="order-id-tag">${esc(deliveryId)}</div>
       <h2 style="margin-top:4px">M-Pesa Payment Gateway</h2>
       <p style="margin-bottom:16px;color:#667085;font-size:13px">Pay <b>Ksh 2.00</b> delivery fee via Safaricom M-Pesa STK Push.</p>

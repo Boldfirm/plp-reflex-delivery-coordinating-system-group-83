@@ -31,6 +31,9 @@
 /* Success Modal Card */
 .modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(15,15,15,0.7);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:99999;display:grid;place-items:center;padding:20px;animation:fadeIn 0.25s ease}
 .modal-card{background:#fff;width:100%;max-width:440px;border-radius:20px;padding:32px 28px;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,0.25);animation:scaleUp 0.3s cubic-bezier(0.16,1,0.3,1);border:1px solid rgba(231,226,228,0.8)}
+.payment-modal-card{background:#fff;color:#171717;border-color:#d0f4de}
+.payment-modal-card h2{color:#087443}
+.payment-modal-card p{color:#667085}
 .success-icon-badge{width:64px;height:64px;background:var(--burgundy-soft);color:var(--burgundy);border-radius:50%;display:grid;place-items:center;margin:0 auto 16px}
 .success-icon-badge svg{width:32px;height:32px;stroke:var(--burgundy);stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
 .modal-card h2{margin:0 0 6px;font-size:22px;color:#171717;font-weight:800}
