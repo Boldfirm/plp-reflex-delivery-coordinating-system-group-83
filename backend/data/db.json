@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Jane Retailer",
+      "role": "retailer",
+      "email": "jane@gmail.com",
+      "password": "123456",
+      "phone": "0711000001"
+    },
+    {
+      "id": "u2",
+      "name": "David Dispatcher",
+      "role": "dispatcher",
+      "email": "dispatcher@reflex.com",
+      "password": "123456",
+      "phone": "0711000002"
+    },
+    {
+      "id": "u3",
+      "name": "Brian Rider",
+      "role": "rider",
+      "email": "brian@gmail.com",
+      "password": "123456",
+      "phone": "0711000003"
+    },
+    {
+      "id": "u4",
+      "name": "Mercy Rider",
+      "role": "rider",
+      "email": "mercy@gmail.com",
+      "password": "123456",
+      "phone": "0711000004"
+    },
+    {
+      "id": "USR-1788599017832",
+      "name": "Jacob Muema",
+      "email": "dispatcher@reflex.com",
+      "password": "123456",
+      "role": "rider",
+      "phone": "0740491425"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "DEL-1001",
+      "retailerId": "u1",
+      "customerName": "Mary Wanjiku",
+      "customerPhone": "0712345678",
+      "address": "Kitengela, Kajiado",
+      "item": "Phone charger",
+      "riderId": "u3",
+      "status": "Pending Confirmation",
+      "createdAt": "2026-08-30T08:30:00+03:00",
+      "updatedAt": "2026-09-05T08:56:53.705Z",
+      "history": [
+        {
+          "status": "Open",
+          "at": "2026-08-30T08:30:00+03:00",
+          "note": "Delivery created by business owner"
+        },
+        {
+          "status": "Assigned",
+          "at": "2026-08-30T09:00:00+03:00",
+          "note": "Accepted by Brian Rider"
+        },
+        {
+          "status": "Picked Up",
+          "at": "2026-08-30T09:15:00+03:00",
+          "note": "Status updated by rider"
+        },
+        {
+          "status": "Out for Delivery",
+          "at": "2026-08-30T09:30:00+03:00",
+          "note": "Status updated by rider"
+        },
+        {
+          "status": "Pending Confirmation",
+          "at": "2026-09-05T08:56:53.705Z",
+          "note": "Status updated by rider"
+        }
+      ]
+    },
+    {
+      "id": "DEL-1003",
+      "retailerId": "u1",
+      "customerName": "Jacob Muema",
+      "customerPhone": "0740491425",
+      "address": "TAJMIL, Imara Daima, Imara Daima ward, Kenya",
+      "item": "MILK",
+      "riderId": "u3",
+      "status": "Claimed",
+      "createdAt": "2026-08-31T13:38:37.525Z",
+      "updatedAt": "2026-09-05T08:56:55.778Z",
+      "history": [
+        {
+          "status": "Open",
+          "at": "2026-08-31T13:38:37.525Z",
+          "note": "Delivery created by business owner"
+        },
+        {
+          "status": "Claimed",
+          "at": "2026-09-05T08:56:55.778Z",
+          "note": "Claimed by Brian Rider"
+        }
+      ]
+    },
+    {
+      "id": "DEL-1004",
+      "retailerId": "u1",
+      "customerName": "gafavdga",
+      "customerPhone": "0740491425",
+      "address": "Nairobi, Nairobi, Nairobi, Kenya",
+      "item": "unga wa Ugali",
+      "riderId": null,
+      "status": "Open",
+      "paymentStatus": "UNPAID",
+      "createdAt": "2026-09-05T08:51:37.646Z",
+      "updatedAt": "2026-09-05T08:51:37.646Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-1788598306698",
+      "deliveryId": "DEL-1004",
+      "riderId": null,
+      "phone": "0740491425",
+      "amount": 200,
+      "status": "PENDING",
+      "checkoutRequestId": "ws_CO_1788598306696",
+      "createdAt": "2026-09-05T08:51:46.696Z"
+    }
+  ]
+}

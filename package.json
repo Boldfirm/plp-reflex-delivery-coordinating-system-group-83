@@ -1,0 +1,15 @@
+{
+  "name": "reflex-readiness-sprint",
+  "version": "1.0.0",
+  "description": "Reflex delivery management prototype",
+  "main": "passenger.js",
+  "scripts": {
+    "start": "node passenger.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mysql2": "^3.24.3",
+    "nodemailer": "^9.1.0"
+  }
+}
